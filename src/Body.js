@@ -63,56 +63,56 @@ function Body(){
             <div className="box-content">
                 <h2>Cloths</h2>
                 <div className="box-img box-img1"></div>
-                <a href="/Page">see more</a>
+                <a href="/Page1">see more</a>
             </div>
         </div>
         <div className="box2 box">
             <div className="box-content">
                 <h2>Health and personal</h2>
                 <div className="box-img box-img2"></div>
-                <p><a href="/Page">See more</a></p>
+                <p><a href="/Page2">See more</a></p>
             </div>
         </div>
         <div className="box3 box">
             <div className="box-content">
                 <h2>Furniture</h2>
                 <div className="box-img box-img3"></div>
-                <p><a href="/Page">See more</a></p>
+                <p><a href="/Page3">See more</a></p>
             </div>
         </div>
         <div className="box4 box">
             <div className="box-content">
             <h2>Electronice</h2>
             <div className="box-img box-img4"></div>
-            <p><a href="/Page">See more</a></p>
+            <p><a href="/Page4">See more</a></p>
         </div>
     </div>
     <div className="box">
         <div className="box-content">
             <h2>Beauty products</h2>
             <div className="box-img box-img5"></div>
-            <p><a href="/Page">See more</a></p>
+            <p><a href="/Page5">See more</a></p>
         </div>
     </div>
     <div className="box">
         <div className="box-content">
             <h2>Pet care</h2>
             <div className="box-img box-img6"></div>
-            <p><a href="/Page">See more</a></p>
+            <p><a href="/Page6">See more</a></p>
         </div>
     </div>
     <div className="box">
         <div className="box-content">
-            <h2>New Ativals in Toys</h2>
+            <h2>New Arivals in Toys</h2>
             <div className="box-img box-img7"></div>
-            <p><a href="/Page">See more</a></p>
+            <p><a href="/Page7">See more</a></p>
         </div>
     </div>
     <div className="box">
         <div className="box-content">
         <h2>Discover Fasion Trends</h2>
         <div className="box-img box-img8"></div>
-        <p><a href="/Page">See more</a></p>
+        <p><a href="/Page8">See more</a></p>
     </div>
     </div>
     </div>

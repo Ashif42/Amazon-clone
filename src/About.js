@@ -1,6 +1,6 @@
 function About(){
     return(<>
-        <h1>This is About us page</h1>
+        <h1 className="text-center">Welcome to About us page</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero ipsum hic laborum porro ex quia neque explicabo voluptas fuga sint. Iusto, labore ipsam illum minima deleniti numquam eveniet! Ex, minus.
         Eveniet nihil harum, distinctio aperiam aspernatur quo! Vero in magnam illo eveniet? Laborum facilis, natus odio quibusdam consequatur consectetur totam minus aperiam tempora obcaecati architecto quis quo illum, atque excepturi?<br />
         Hic nam animi beatae assumenda cum, iste quod. Natus nulla, voluptatem pariatur porro sequi iure id voluptas. Porro natus, earum laudantium aut ut, impedit aspernatur eveniet atque inventore a recusandae.

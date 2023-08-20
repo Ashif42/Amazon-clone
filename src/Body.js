@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import "./Body.css"
 function Body(){
     return(
         <>
-        <div className="Logo"><a href="/"></a></div>
+        <div className="Logo"></div>
         <div className="navbar">
             <div className="nav-logo  ">
                 <div className="logo"></div>
@@ -24,16 +25,16 @@ function Body(){
                 </div>
             </div>
             <div className="nav-signin  ">
-                <p><span style={{padding:'10px'}}>Hello,sign in</span></p>
+                <p><span style={{padding:'10px'}}> <a href="/Signin">Hello,sign in</a></span></p>
                 <p className="nav-second">Account & list</p>
             </div>
             <div className="nav-return  ">
-                <p><span>Returns</span></p>
-                <p className="nav-second">& Orders</p>
+                <p><span>Returns &</span></p>
+                <p className="nav-second"><a href="/Orders">Orders</a></p>
             </div>
             <div className="nav-cart  ">
                 <i className="fa-solid fa-cart-shopping"></i>
-                cart
+                <a href="/Cart">cart</a>
             </div>
         </div>
         <div className="panel">
@@ -49,7 +50,7 @@ function Body(){
                 <p>Sell</p>
             </div>
             <div className="panel-deals">
-                shop deals in electronics
+                <a href="/Electronics">shop deals in electronics</a>
             </div>
         </div>
 
@@ -62,7 +63,7 @@ function Body(){
         <div className="box1 box">
             <div className="box-content">
                 <h2>Cloths</h2>
-                <div className="box-img box-img1"></div>
+                <a href="/Page1"><div className="box-img box-img1"></div></a>
                 <a href="/Page1">see more</a>
             </div>
         </div>

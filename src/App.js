@@ -8,13 +8,16 @@ import Page5 from "./pages/page5";
 import Page6 from "./pages/page6";
 import Page7 from "./pages/page7";
 import Page8 from "./pages/page8";
+import Signin from "./pages/signin";
+import Electronics from "./pages/electronics";
+import Cart from "./pages/Cart";
+import Orders from "./pages/Orders";
 import About from "./About";
 import Body from "./Body";
 import{
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 }from 'react-router-dom';
 
 function App() {
@@ -40,7 +43,11 @@ function App() {
           <Route path='/Page6' element={<Page6/>}></Route>
           <Route path='/Page7' element={<Page7/>}></Route>
           <Route path='/Page8' element={<Page8/>}></Route>
-          <Route path='/About' element={<About/>}></Route> 
+          <Route path='/About' element={<About/>}></Route>
+          <Route path='/Electronics' element={<Electronics/>}></Route>
+          <Route path='/Cart' element={<Cart/>}></Route>
+          <Route path='/Orders' element={<Orders/>}></Route>
+          <Route path='/Signin' element={<Signin/>}></Route>
         </Routes>
       </Router>
       </>

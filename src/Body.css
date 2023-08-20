@@ -3,6 +3,10 @@
     width: 300px;
     background-image: url(./box1_image.jpg);
 } */
+
+a{
+    text-decoration: none;
+}
 *{
     margin: 0;
     font-family: Arial;

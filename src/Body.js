@@ -25,16 +25,16 @@ function Body(){
                 </div>
             </div>
             <div className="nav-signin  ">
-                <p><span style={{padding:'10px'}}> <a href="/Signin">Hello,sign in</a></span></p>
+                <p><span style={{padding:'10px'}}> <a className="topanchor" href="/Signin">Hello,sign in</a></span></p>
                 <p className="nav-second">Account & list</p>
             </div>
             <div className="nav-return  ">
                 <p><span>Returns &</span></p>
-                <p className="nav-second"><a href="/Orders">Orders</a></p>
+                <p className="nav-second"><a className="topanchor" href="/Orders">Orders</a></p>
             </div>
             <div className="nav-cart  ">
                 <i className="fa-solid fa-cart-shopping"></i>
-                <a href="/Cart">cart</a>
+                <a className="topanchor" href="/Cart">cart</a>
             </div>
         </div>
         <div className="panel">
@@ -50,7 +50,7 @@ function Body(){
                 <p>Sell</p>
             </div>
             <div className="panel-deals">
-                <a href="/Electronics">shop deals in electronics</a>
+                <a className="topanchor" href="/Electronics">shop deals in electronics</a>
             </div>
         </div>
 

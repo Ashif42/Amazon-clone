@@ -7,6 +7,9 @@
 a{
     text-decoration: none;
 }
+.topanchor{
+    color: #cccccc;
+}
 *{
     margin: 0;
     font-family: Arial;
